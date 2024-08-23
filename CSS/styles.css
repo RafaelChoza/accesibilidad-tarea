@@ -1,0 +1,170 @@
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a:hover {
+    transform: scale(1.02);
+    background-color: #b9b9ff;
+}
+
+.logo {
+    width: 6%;
+    position: relative;
+}
+
+main {
+    border: 50px solid #00028d;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #ffff00;
+}
+
+.accordion {
+    position: relative;
+    left: 20%;
+}
+
+.accordion-button {
+    background-color: #d40000;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.accordion-button:hover {
+    transform: scale(1.02);
+    background-color: #740101;
+}
+
+.carousel {
+    position: relative;
+    left: 20%;
+}
+
+#accordionExample {
+    width: 50%;
+}
+
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#carouselExample {
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+.carousel-control-prev {
+    height: 15%;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.carousel-control-next {
+    height: 15%;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.submit-button {
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px;
+    margin: 10px;
+}
+
+.main-contacto {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+}
+
+#name, #email {
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.div-selectPais{
+    margin-bottom: 15px;
+}
+
+.main-terms {
+    padding: 15px;
+}
+
+.h1-terms, .h1-mexNews, .h1-worldNews {
+    text-align: center;
+}
+
+@media screen and (max-width:27rem) {
+    .accordion-body {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 1.3rem;
+    }
+
+    #accordionExample {
+        width: 100%;
+    }
+
+    #carouselExample {
+        width: 100%;
+    }
+
+    .accordion {
+        position: relative;
+        left: 0%;
+    }
+
+    .carousel {
+        position: relative;
+        left: 0%;
+    }
+
+    .accordion-button {
+        font-size: .7rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+}
